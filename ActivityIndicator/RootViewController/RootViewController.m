@@ -14,6 +14,13 @@
 #import "TIRootViewController.h"
 #import "CLViewController.h"
 #import "LVViewController.h"
+#import "YLViewController.h"
+#import "GLViewController.h"
+#import "DemoFPActivityViewController.h"
+#import "TaoBaoViewController.h"
+#import "ETViewController.h"
+#import "RSViewController.h"
+#import "WTViewController.h"
 
 @interface RootViewController ()
 @property (nonatomic, retain) NSArray *mdataArray;
@@ -43,7 +50,7 @@
 {
     [super viewDidLoad];
 
-    self.mdataArray = [[[NSArray alloc] initWithObjects:@"HZActivityIndicator", @"F3SwirlyDemo", @"TYProgressBar", @"Metro Style-WP7的效果", @"Spring loadedview", @"DDIndicator", @"LHLoadingView", nil]autorelease];
+    self.mdataArray = [[[NSArray alloc] initWithObjects:@"HZActivityIndicator", @"F3SwirlyDemo", @"TYProgressBar", @"Metro Style-WP7的效果", @"Spring loadedview", @"DDIndicator", @"LHLoadingView", @"YLActivityIndicator", @"Gmail loading", @"FPActivity", @"状态栏Activity", @"ETActivity", @"Yahoo-weather", @"WTActivity", nil]autorelease];
 }
 
 - (void)didReceiveMemoryWarning
@@ -166,6 +173,55 @@
         case 6:
         {
             LVViewController *vc = [[LVViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+            [vc release];
+        }
+            break;
+        case 7:
+        {
+            YLViewController *vc = [[YLViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+            [vc release];
+        }
+            break;
+        case 8:
+        {
+            GLViewController *vc = [[GLViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+            [vc release];
+        }
+            break;
+        case 9:
+        {
+            DemoFPActivityViewController *vc = [[DemoFPActivityViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            [vc release];
+        }
+            break;
+        case 10:
+        {
+            TaoBaoViewController *vc = [[TaoBaoViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            [vc release];
+        }
+            break;
+        case 11:
+        {
+            ETViewController *vc = [[ETViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            [vc release];
+        }
+            break;
+        case 12:
+        {
+            RSViewController *vc = [[RSViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+            [vc release];
+        }
+            break;
+        case 13:
+        {
+            WTViewController *vc = [[WTViewController alloc] initWithNibName:nil bundle:nil];
             [self.navigationController pushViewController:vc animated:YES];
             [vc release];
         }

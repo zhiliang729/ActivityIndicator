@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C67C55C61807DDE200E20277 /* TFIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C55C51807DDE200E20277 /* TFIndicatorView.m */; };
+		C67C55CE1807DFFC00E20277 /* RSLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C55CA1807DFFC00E20277 /* RSLoadingIndicator.m */; };
+		C67C55CF1807DFFC00E20277 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C55CC1807DFFC00E20277 /* RSViewController.m */; };
+		C67C55D01807DFFC00E20277 /* RSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67C55CD1807DFFC00E20277 /* RSViewController.xib */; };
+		C67C55D81807E1FF00E20277 /* WTStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C55D31807E1FF00E20277 /* WTStatusBar.m */; };
+		C67C55D91807E1FF00E20277 /* WTStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C55D51807E1FF00E20277 /* WTStatusView.m */; };
+		C67C55DA1807E1FF00E20277 /* WTStatusWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C55D71807E1FF00E20277 /* WTStatusWindow.m */; };
+		C67C55DE1807E22600E20277 /* WTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C55DC1807E22600E20277 /* WTViewController.m */; };
+		C67C55DF1807E22600E20277 /* WTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67C55DD1807E22600E20277 /* WTViewController.xib */; };
+		C67C55E21807E3CA00E20277 /* CirActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C55E11807E3CA00E20277 /* CirActivityIndicatorView.m */; };
 		C6D1BC1418079EAC004B9279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D1BC1318079EAC004B9279 /* UIKit.framework */; };
 		C6D1BC1618079EAC004B9279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D1BC1518079EAC004B9279 /* Foundation.framework */; };
 		C6D1BC1818079EAC004B9279 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D1BC1718079EAC004B9279 /* CoreGraphics.framework */; };
@@ -43,9 +53,43 @@
 		C6D1BC7F1807C6B7004B9279 /* LeoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC7B1807C6B7004B9279 /* LeoLoadingView.m */; };
 		C6D1BC801807C6B7004B9279 /* LVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC7D1807C6B7004B9279 /* LVViewController.m */; };
 		C6D1BC811807C6B7004B9279 /* LVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC7E1807C6B7004B9279 /* LVViewController.xib */; };
+		C6D1BC8A1807CFDC004B9279 /* facebook_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC831807CFDC004B9279 /* facebook_loading.gif */; };
+		C6D1BC8B1807CFDC004B9279 /* YLActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC861807CFDC004B9279 /* YLActivityIndicatorView.m */; };
+		C6D1BC8C1807CFDC004B9279 /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC881807CFDC004B9279 /* YLViewController.m */; };
+		C6D1BC8D1807CFDC004B9279 /* YLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC891807CFDC004B9279 /* YLViewController.xib */; };
+		C6D1BC941807D143004B9279 /* GmailLikeLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC901807D143004B9279 /* GmailLikeLoadingView.m */; };
+		C6D1BC951807D143004B9279 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC921807D143004B9279 /* GLViewController.m */; };
+		C6D1BC961807D143004B9279 /* GLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC931807D143004B9279 /* GLViewController.xib */; };
+		C6D1BCA01807D49B004B9279 /* DemoFPActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC991807D49B004B9279 /* DemoFPActivityViewController.m */; };
+		C6D1BCA11807D49B004B9279 /* FPActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC9C1807D49B004B9279 /* FPActivityView.m */; };
+		C6D1BCA21807D49B004B9279 /* download-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC9E1807D49B004B9279 /* download-bar.png */; };
+		C6D1BCA31807D49B004B9279 /* download-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC9F1807D49B004B9279 /* download-bar@2x.png */; };
+		C6D1BCA81807D64D004B9279 /* TaoBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BCA61807D64D004B9279 /* TaoBaoViewController.m */; };
+		C6D1BCA91807D64D004B9279 /* TaoBaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BCA71807D64D004B9279 /* TaoBaoViewController.xib */; };
+		C6D1BCB11807D94E004B9279 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BCAC1807D94E004B9279 /* Circle.m */; };
+		C6D1BCB21807D94E004B9279 /* ETActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BCAE1807D94E004B9279 /* ETActivityIndicatorView.m */; };
+		C6D1BCB31807D94E004B9279 /* ETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BCB01807D94E004B9279 /* ETViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C67C55C41807DDE200E20277 /* TFIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFIndicatorView.h; sourceTree = "<group>"; };
+		C67C55C51807DDE200E20277 /* TFIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFIndicatorView.m; sourceTree = "<group>"; };
+		C67C55C91807DFFC00E20277 /* RSLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLoadingIndicator.h; sourceTree = "<group>"; };
+		C67C55CA1807DFFC00E20277 /* RSLoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLoadingIndicator.m; sourceTree = "<group>"; };
+		C67C55CB1807DFFC00E20277 /* RSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		C67C55CC1807DFFC00E20277 /* RSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		C67C55CD1807DFFC00E20277 /* RSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSViewController.xib; sourceTree = "<group>"; };
+		C67C55D21807E1FF00E20277 /* WTStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTStatusBar.h; sourceTree = "<group>"; };
+		C67C55D31807E1FF00E20277 /* WTStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTStatusBar.m; sourceTree = "<group>"; };
+		C67C55D41807E1FF00E20277 /* WTStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTStatusView.h; sourceTree = "<group>"; };
+		C67C55D51807E1FF00E20277 /* WTStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTStatusView.m; sourceTree = "<group>"; };
+		C67C55D61807E1FF00E20277 /* WTStatusWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTStatusWindow.h; sourceTree = "<group>"; };
+		C67C55D71807E1FF00E20277 /* WTStatusWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTStatusWindow.m; sourceTree = "<group>"; };
+		C67C55DB1807E22600E20277 /* WTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTViewController.h; sourceTree = "<group>"; };
+		C67C55DC1807E22600E20277 /* WTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTViewController.m; sourceTree = "<group>"; };
+		C67C55DD1807E22600E20277 /* WTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTViewController.xib; sourceTree = "<group>"; };
+		C67C55E01807E3CA00E20277 /* CirActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirActivityIndicatorView.h; sourceTree = "<group>"; };
+		C67C55E11807E3CA00E20277 /* CirActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirActivityIndicatorView.m; sourceTree = "<group>"; };
 		C6D1BC1018079EAC004B9279 /* ActivityIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D1BC1318079EAC004B9279 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C6D1BC1518079EAC004B9279 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,6 +147,32 @@
 		C6D1BC7C1807C6B7004B9279 /* LVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVViewController.h; sourceTree = "<group>"; };
 		C6D1BC7D1807C6B7004B9279 /* LVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVViewController.m; sourceTree = "<group>"; };
 		C6D1BC7E1807C6B7004B9279 /* LVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LVViewController.xib; sourceTree = "<group>"; };
+		C6D1BC831807CFDC004B9279 /* facebook_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = facebook_loading.gif; sourceTree = "<group>"; };
+		C6D1BC851807CFDC004B9279 /* YLActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLActivityIndicatorView.h; sourceTree = "<group>"; };
+		C6D1BC861807CFDC004B9279 /* YLActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLActivityIndicatorView.m; sourceTree = "<group>"; };
+		C6D1BC871807CFDC004B9279 /* YLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
+		C6D1BC881807CFDC004B9279 /* YLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
+		C6D1BC891807CFDC004B9279 /* YLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLViewController.xib; sourceTree = "<group>"; };
+		C6D1BC8F1807D143004B9279 /* GmailLikeLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GmailLikeLoadingView.h; sourceTree = "<group>"; };
+		C6D1BC901807D143004B9279 /* GmailLikeLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GmailLikeLoadingView.m; sourceTree = "<group>"; };
+		C6D1BC911807D143004B9279 /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		C6D1BC921807D143004B9279 /* GLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		C6D1BC931807D143004B9279 /* GLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLViewController.xib; sourceTree = "<group>"; };
+		C6D1BC981807D49B004B9279 /* DemoFPActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFPActivityViewController.h; sourceTree = "<group>"; };
+		C6D1BC991807D49B004B9279 /* DemoFPActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFPActivityViewController.m; sourceTree = "<group>"; };
+		C6D1BC9B1807D49B004B9279 /* FPActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPActivityView.h; sourceTree = "<group>"; };
+		C6D1BC9C1807D49B004B9279 /* FPActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPActivityView.m; sourceTree = "<group>"; };
+		C6D1BC9E1807D49B004B9279 /* download-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download-bar.png"; sourceTree = "<group>"; };
+		C6D1BC9F1807D49B004B9279 /* download-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download-bar@2x.png"; sourceTree = "<group>"; };
+		C6D1BCA51807D64D004B9279 /* TaoBaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaoBaoViewController.h; sourceTree = "<group>"; };
+		C6D1BCA61807D64D004B9279 /* TaoBaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaoBaoViewController.m; sourceTree = "<group>"; };
+		C6D1BCA71807D64D004B9279 /* TaoBaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaoBaoViewController.xib; sourceTree = "<group>"; };
+		C6D1BCAB1807D94E004B9279 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		C6D1BCAC1807D94E004B9279 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		C6D1BCAD1807D94E004B9279 /* ETActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETActivityIndicatorView.h; sourceTree = "<group>"; };
+		C6D1BCAE1807D94E004B9279 /* ETActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETActivityIndicatorView.m; sourceTree = "<group>"; };
+		C6D1BCAF1807D94E004B9279 /* ETViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETViewController.h; sourceTree = "<group>"; };
+		C6D1BCB01807D94E004B9279 /* ETViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +191,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C67C55C31807DDE200E20277 /* TFIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				C67C55C41807DDE200E20277 /* TFIndicatorView.h */,
+				C67C55C51807DDE200E20277 /* TFIndicatorView.m */,
+			);
+			path = TFIndicatorView;
+			sourceTree = "<group>";
+		};
+		C67C55C71807DFFC00E20277 /* Yahoo-Weather-Loading */ = {
+			isa = PBXGroup;
+			children = (
+				C67C55C81807DFFC00E20277 /* Loading Indicator */,
+				C67C55CB1807DFFC00E20277 /* RSViewController.h */,
+				C67C55CC1807DFFC00E20277 /* RSViewController.m */,
+				C67C55CD1807DFFC00E20277 /* RSViewController.xib */,
+			);
+			path = "Yahoo-Weather-Loading";
+			sourceTree = "<group>";
+		};
+		C67C55C81807DFFC00E20277 /* Loading Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				C67C55C91807DFFC00E20277 /* RSLoadingIndicator.h */,
+				C67C55CA1807DFFC00E20277 /* RSLoadingIndicator.m */,
+			);
+			path = "Loading Indicator";
+			sourceTree = "<group>";
+		};
+		C67C55D11807E1FF00E20277 /* LoadingBar */ = {
+			isa = PBXGroup;
+			children = (
+				C67C55E01807E3CA00E20277 /* CirActivityIndicatorView.h */,
+				C67C55E11807E3CA00E20277 /* CirActivityIndicatorView.m */,
+				C67C55D21807E1FF00E20277 /* WTStatusBar.h */,
+				C67C55D31807E1FF00E20277 /* WTStatusBar.m */,
+				C67C55D41807E1FF00E20277 /* WTStatusView.h */,
+				C67C55D51807E1FF00E20277 /* WTStatusView.m */,
+				C67C55D61807E1FF00E20277 /* WTStatusWindow.h */,
+				C67C55D71807E1FF00E20277 /* WTStatusWindow.m */,
+				C67C55DB1807E22600E20277 /* WTViewController.h */,
+				C67C55DC1807E22600E20277 /* WTViewController.m */,
+				C67C55DD1807E22600E20277 /* WTViewController.xib */,
+			);
+			path = LoadingBar;
+			sourceTree = "<group>";
+		};
 		C6D1BC0718079EAC004B9279 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +270,14 @@
 		C6D1BC1918079EAC004B9279 /* ActivityIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				C67C55D11807E1FF00E20277 /* LoadingBar */,
+				C67C55C71807DFFC00E20277 /* Yahoo-Weather-Loading */,
+				C67C55C31807DDE200E20277 /* TFIndicatorView */,
+				C6D1BCAA1807D94D004B9279 /* ETActivityIndicatorView */,
+				C6D1BCA41807D62A004B9279 /* 状态栏activity */,
+				C6D1BC971807D49A004B9279 /* FPActivityView */,
+				C6D1BC8E1807D143004B9279 /* GmailLikeLoading */,
+				C6D1BC821807CFDB004B9279 /* YLActivityIndicator */,
 				C6D1BC781807C6B7004B9279 /* LHLoadingView */,
 				C6D1BC6F1807C53D004B9279 /* DDIndicator */,
 				C6D1BC651807AF53004B9279 /* TISpringLoadedView */,
@@ -304,6 +429,91 @@
 			path = LoadingTipView;
 			sourceTree = "<group>";
 		};
+		C6D1BC821807CFDB004B9279 /* YLActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC831807CFDC004B9279 /* facebook_loading.gif */,
+				C6D1BC841807CFDC004B9279 /* YLActivityIndicatorView */,
+				C6D1BC871807CFDC004B9279 /* YLViewController.h */,
+				C6D1BC881807CFDC004B9279 /* YLViewController.m */,
+				C6D1BC891807CFDC004B9279 /* YLViewController.xib */,
+			);
+			path = YLActivityIndicator;
+			sourceTree = "<group>";
+		};
+		C6D1BC841807CFDC004B9279 /* YLActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC851807CFDC004B9279 /* YLActivityIndicatorView.h */,
+				C6D1BC861807CFDC004B9279 /* YLActivityIndicatorView.m */,
+			);
+			path = YLActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		C6D1BC8E1807D143004B9279 /* GmailLikeLoading */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC8F1807D143004B9279 /* GmailLikeLoadingView.h */,
+				C6D1BC901807D143004B9279 /* GmailLikeLoadingView.m */,
+				C6D1BC911807D143004B9279 /* GLViewController.h */,
+				C6D1BC921807D143004B9279 /* GLViewController.m */,
+				C6D1BC931807D143004B9279 /* GLViewController.xib */,
+			);
+			path = GmailLikeLoading;
+			sourceTree = "<group>";
+		};
+		C6D1BC971807D49A004B9279 /* FPActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC981807D49B004B9279 /* DemoFPActivityViewController.h */,
+				C6D1BC991807D49B004B9279 /* DemoFPActivityViewController.m */,
+				C6D1BC9A1807D49B004B9279 /* FPActivityView */,
+				C6D1BC9D1807D49B004B9279 /* images */,
+			);
+			path = FPActivityView;
+			sourceTree = "<group>";
+		};
+		C6D1BC9A1807D49B004B9279 /* FPActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC9B1807D49B004B9279 /* FPActivityView.h */,
+				C6D1BC9C1807D49B004B9279 /* FPActivityView.m */,
+			);
+			path = FPActivityView;
+			sourceTree = "<group>";
+		};
+		C6D1BC9D1807D49B004B9279 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC9E1807D49B004B9279 /* download-bar.png */,
+				C6D1BC9F1807D49B004B9279 /* download-bar@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C6D1BCA41807D62A004B9279 /* 状态栏activity */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BCA51807D64D004B9279 /* TaoBaoViewController.h */,
+				C6D1BCA61807D64D004B9279 /* TaoBaoViewController.m */,
+				C6D1BCA71807D64D004B9279 /* TaoBaoViewController.xib */,
+			);
+			path = "状态栏activity";
+			sourceTree = "<group>";
+		};
+		C6D1BCAA1807D94D004B9279 /* ETActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BCAB1807D94E004B9279 /* Circle.h */,
+				C6D1BCAC1807D94E004B9279 /* Circle.m */,
+				C6D1BCAD1807D94E004B9279 /* ETActivityIndicatorView.h */,
+				C6D1BCAE1807D94E004B9279 /* ETActivityIndicatorView.m */,
+				C6D1BCAF1807D94E004B9279 /* ETViewController.h */,
+				C6D1BCB01807D94E004B9279 /* ETViewController.m */,
+			);
+			path = ETActivityIndicatorView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,6 +577,14 @@
 				C6D1BC641807ACBB004B9279 /* MTViewController.xib in Resources */,
 				C6D1BC761807C53E004B9279 /* CLViewController.xib in Resources */,
 				C6D1BC811807C6B7004B9279 /* LVViewController.xib in Resources */,
+				C6D1BC8A1807CFDC004B9279 /* facebook_loading.gif in Resources */,
+				C6D1BC8D1807CFDC004B9279 /* YLViewController.xib in Resources */,
+				C6D1BC961807D143004B9279 /* GLViewController.xib in Resources */,
+				C6D1BCA21807D49B004B9279 /* download-bar.png in Resources */,
+				C6D1BCA31807D49B004B9279 /* download-bar@2x.png in Resources */,
+				C6D1BCA91807D64D004B9279 /* TaoBaoViewController.xib in Resources */,
+				C67C55D01807DFFC00E20277 /* RSViewController.xib in Resources */,
+				C67C55DF1807E22600E20277 /* WTViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +614,24 @@
 				C6D1BC771807C53E004B9279 /* DDIndicator.m in Sources */,
 				C6D1BC7F1807C6B7004B9279 /* LeoLoadingView.m in Sources */,
 				C6D1BC801807C6B7004B9279 /* LVViewController.m in Sources */,
+				C6D1BC8B1807CFDC004B9279 /* YLActivityIndicatorView.m in Sources */,
+				C6D1BC8C1807CFDC004B9279 /* YLViewController.m in Sources */,
+				C6D1BC941807D143004B9279 /* GmailLikeLoadingView.m in Sources */,
+				C6D1BC951807D143004B9279 /* GLViewController.m in Sources */,
+				C6D1BCA01807D49B004B9279 /* DemoFPActivityViewController.m in Sources */,
+				C6D1BCA11807D49B004B9279 /* FPActivityView.m in Sources */,
+				C6D1BCA81807D64D004B9279 /* TaoBaoViewController.m in Sources */,
+				C6D1BCB11807D94E004B9279 /* Circle.m in Sources */,
+				C6D1BCB21807D94E004B9279 /* ETActivityIndicatorView.m in Sources */,
+				C6D1BCB31807D94E004B9279 /* ETViewController.m in Sources */,
+				C67C55C61807DDE200E20277 /* TFIndicatorView.m in Sources */,
+				C67C55CE1807DFFC00E20277 /* RSLoadingIndicator.m in Sources */,
+				C67C55CF1807DFFC00E20277 /* RSViewController.m in Sources */,
+				C67C55D81807E1FF00E20277 /* WTStatusBar.m in Sources */,
+				C67C55D91807E1FF00E20277 /* WTStatusView.m in Sources */,
+				C67C55DA1807E1FF00E20277 /* WTStatusWindow.m in Sources */,
+				C67C55DE1807E22600E20277 /* WTViewController.m in Sources */,
+				C67C55E21807E3CA00E20277 /* CirActivityIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +744,7 @@
 				C6D1BC2F18079EAC004B9279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
