@@ -16,6 +16,33 @@
 		C6D1BC2618079EAC004B9279 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC2518079EAC004B9279 /* Default.png */; };
 		C6D1BC2818079EAC004B9279 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC2718079EAC004B9279 /* Default@2x.png */; };
 		C6D1BC2A18079EAC004B9279 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC2918079EAC004B9279 /* Default-568h@2x.png */; };
+		C6D1BC3418079EE6004B9279 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC3218079EE6004B9279 /* RootViewController.m */; };
+		C6D1BC3518079EE6004B9279 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC3318079EE6004B9279 /* RootViewController.xib */; };
+		C6D1BC3C18079FB7004B9279 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC3818079FB7004B9279 /* DemoViewController.m */; };
+		C6D1BC3D18079FB7004B9279 /* HZActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC3B18079FB7004B9279 /* HZActivityIndicatorView.m */; };
+		C6D1BC401807A119004B9279 /* HZActivityIndicatorSubclassExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC3F1807A119004B9279 /* HZActivityIndicatorSubclassExample.m */; };
+		C6D1BC421807A166004B9279 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC411807A166004B9279 /* DemoViewController.xib */; };
+		C6D1BC4A1807A500004B9279 /* F3Swirly.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC451807A500004B9279 /* F3Swirly.m */; };
+		C6D1BC4B1807A500004B9279 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC461807A500004B9279 /* ViewController_iPad.xib */; };
+		C6D1BC4C1807A500004B9279 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC471807A500004B9279 /* ViewController_iPhone.xib */; };
+		C6D1BC4D1807A500004B9279 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC491807A500004B9279 /* ViewController.m */; };
+		C6D1BC4F1807A5DD004B9279 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D1BC4E1807A5DD004B9279 /* QuartzCore.framework */; };
+		C6D1BC511807A5E6004B9279 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D1BC501807A5E6004B9279 /* CoreMotion.framework */; };
+		C6D1BC591807A764004B9279 /* TYIndeterminateProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC551807A764004B9279 /* TYIndeterminateProgressBar.m */; };
+		C6D1BC5A1807A764004B9279 /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC571807A764004B9279 /* TYViewController.m */; };
+		C6D1BC5B1807A764004B9279 /* TYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC581807A764004B9279 /* TYViewController.xib */; };
+		C6D1BC611807AC75004B9279 /* MTActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC5E1807AC75004B9279 /* MTActivityIndicatorView.m */; };
+		C6D1BC621807AC75004B9279 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC601807AC75004B9279 /* MTViewController.m */; };
+		C6D1BC641807ACBB004B9279 /* MTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC631807ACBB004B9279 /* MTViewController.xib */; };
+		C6D1BC6C1807AF53004B9279 /* TIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC671807AF53004B9279 /* TIRootViewController.m */; };
+		C6D1BC6D1807AF53004B9279 /* TISpringLoadedSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC691807AF53004B9279 /* TISpringLoadedSpinnerView.m */; };
+		C6D1BC6E1807AF53004B9279 /* TISpringLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC6B1807AF53004B9279 /* TISpringLoadedView.m */; };
+		C6D1BC751807C53E004B9279 /* CLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC711807C53E004B9279 /* CLViewController.m */; };
+		C6D1BC761807C53E004B9279 /* CLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC721807C53E004B9279 /* CLViewController.xib */; };
+		C6D1BC771807C53E004B9279 /* DDIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC741807C53E004B9279 /* DDIndicator.m */; };
+		C6D1BC7F1807C6B7004B9279 /* LeoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC7B1807C6B7004B9279 /* LeoLoadingView.m */; };
+		C6D1BC801807C6B7004B9279 /* LVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1BC7D1807C6B7004B9279 /* LVViewController.m */; };
+		C6D1BC811807C6B7004B9279 /* LVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D1BC7E1807C6B7004B9279 /* LVViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +59,50 @@
 		C6D1BC2518079EAC004B9279 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C6D1BC2718079EAC004B9279 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C6D1BC2918079EAC004B9279 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C6D1BC3118079EE6004B9279 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C6D1BC3218079EE6004B9279 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C6D1BC3318079EE6004B9279 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C6D1BC3718079FB7004B9279 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		C6D1BC3818079FB7004B9279 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		C6D1BC3A18079FB7004B9279 /* HZActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZActivityIndicatorView.h; sourceTree = "<group>"; };
+		C6D1BC3B18079FB7004B9279 /* HZActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZActivityIndicatorView.m; sourceTree = "<group>"; };
+		C6D1BC3E1807A119004B9279 /* HZActivityIndicatorSubclassExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZActivityIndicatorSubclassExample.h; sourceTree = "<group>"; };
+		C6D1BC3F1807A119004B9279 /* HZActivityIndicatorSubclassExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZActivityIndicatorSubclassExample.m; sourceTree = "<group>"; };
+		C6D1BC411807A166004B9279 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		C6D1BC441807A500004B9279 /* F3Swirly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F3Swirly.h; sourceTree = "<group>"; };
+		C6D1BC451807A500004B9279 /* F3Swirly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F3Swirly.m; sourceTree = "<group>"; };
+		C6D1BC461807A500004B9279 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		C6D1BC471807A500004B9279 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		C6D1BC481807A500004B9279 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6D1BC491807A500004B9279 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6D1BC4E1807A5DD004B9279 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C6D1BC501807A5E6004B9279 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C6D1BC541807A764004B9279 /* TYIndeterminateProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYIndeterminateProgressBar.h; sourceTree = "<group>"; };
+		C6D1BC551807A764004B9279 /* TYIndeterminateProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYIndeterminateProgressBar.m; sourceTree = "<group>"; };
+		C6D1BC561807A764004B9279 /* TYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
+		C6D1BC571807A764004B9279 /* TYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
+		C6D1BC581807A764004B9279 /* TYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYViewController.xib; sourceTree = "<group>"; };
+		C6D1BC5D1807AC75004B9279 /* MTActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTActivityIndicatorView.h; sourceTree = "<group>"; };
+		C6D1BC5E1807AC75004B9279 /* MTActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTActivityIndicatorView.m; sourceTree = "<group>"; };
+		C6D1BC5F1807AC75004B9279 /* MTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
+		C6D1BC601807AC75004B9279 /* MTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
+		C6D1BC631807ACBB004B9279 /* MTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTViewController.xib; sourceTree = "<group>"; };
+		C6D1BC661807AF53004B9279 /* TIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIRootViewController.h; sourceTree = "<group>"; };
+		C6D1BC671807AF53004B9279 /* TIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIRootViewController.m; sourceTree = "<group>"; };
+		C6D1BC681807AF53004B9279 /* TISpringLoadedSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISpringLoadedSpinnerView.h; sourceTree = "<group>"; };
+		C6D1BC691807AF53004B9279 /* TISpringLoadedSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISpringLoadedSpinnerView.m; sourceTree = "<group>"; };
+		C6D1BC6A1807AF53004B9279 /* TISpringLoadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISpringLoadedView.h; sourceTree = "<group>"; };
+		C6D1BC6B1807AF53004B9279 /* TISpringLoadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISpringLoadedView.m; sourceTree = "<group>"; };
+		C6D1BC701807C53E004B9279 /* CLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLViewController.h; sourceTree = "<group>"; };
+		C6D1BC711807C53E004B9279 /* CLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLViewController.m; sourceTree = "<group>"; };
+		C6D1BC721807C53E004B9279 /* CLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLViewController.xib; sourceTree = "<group>"; };
+		C6D1BC731807C53E004B9279 /* DDIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDIndicator.h; sourceTree = "<group>"; };
+		C6D1BC741807C53E004B9279 /* DDIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDIndicator.m; sourceTree = "<group>"; };
+		C6D1BC7A1807C6B7004B9279 /* LeoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoLoadingView.h; sourceTree = "<group>"; };
+		C6D1BC7B1807C6B7004B9279 /* LeoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoLoadingView.m; sourceTree = "<group>"; };
+		C6D1BC7C1807C6B7004B9279 /* LVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVViewController.h; sourceTree = "<group>"; };
+		C6D1BC7D1807C6B7004B9279 /* LVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVViewController.m; sourceTree = "<group>"; };
+		C6D1BC7E1807C6B7004B9279 /* LVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LVViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D1BC511807A5E6004B9279 /* CoreMotion.framework in Frameworks */,
+				C6D1BC4F1807A5DD004B9279 /* QuartzCore.framework in Frameworks */,
 				C6D1BC1418079EAC004B9279 /* UIKit.framework in Frameworks */,
 				C6D1BC1618079EAC004B9279 /* Foundation.framework in Frameworks */,
 				C6D1BC1818079EAC004B9279 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +141,8 @@
 		C6D1BC1218079EAC004B9279 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6D1BC501807A5E6004B9279 /* CoreMotion.framework */,
+				C6D1BC4E1807A5DD004B9279 /* QuartzCore.framework */,
 				C6D1BC1318079EAC004B9279 /* UIKit.framework */,
 				C6D1BC1518079EAC004B9279 /* Foundation.framework */,
 				C6D1BC1718079EAC004B9279 /* CoreGraphics.framework */,
@@ -78,6 +153,14 @@
 		C6D1BC1918079EAC004B9279 /* ActivityIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				C6D1BC781807C6B7004B9279 /* LHLoadingView */,
+				C6D1BC6F1807C53D004B9279 /* DDIndicator */,
+				C6D1BC651807AF53004B9279 /* TISpringLoadedView */,
+				C6D1BC5C1807AC75004B9279 /* MTActivityIndicator */,
+				C6D1BC521807A764004B9279 /* TYProgressBar */,
+				C6D1BC431807A479004B9279 /* F3Swirly */,
+				C6D1BC3618079FB7004B9279 /* HZActivityIndicator */,
+				C6D1BC3018079ED3004B9279 /* RootViewController */,
 				C6D1BC2218079EAC004B9279 /* AppDelegate.h */,
 				C6D1BC2318079EAC004B9279 /* AppDelegate.m */,
 				C6D1BC1A18079EAC004B9279 /* Supporting Files */,
@@ -97,6 +180,128 @@
 				C6D1BC2918079EAC004B9279 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6D1BC3018079ED3004B9279 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC3118079EE6004B9279 /* RootViewController.h */,
+				C6D1BC3218079EE6004B9279 /* RootViewController.m */,
+				C6D1BC3318079EE6004B9279 /* RootViewController.xib */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		C6D1BC3618079FB7004B9279 /* HZActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC3E1807A119004B9279 /* HZActivityIndicatorSubclassExample.h */,
+				C6D1BC3F1807A119004B9279 /* HZActivityIndicatorSubclassExample.m */,
+				C6D1BC3718079FB7004B9279 /* DemoViewController.h */,
+				C6D1BC3818079FB7004B9279 /* DemoViewController.m */,
+				C6D1BC411807A166004B9279 /* DemoViewController.xib */,
+				C6D1BC3918079FB7004B9279 /* HZActivityIndicatorView */,
+			);
+			path = HZActivityIndicator;
+			sourceTree = "<group>";
+		};
+		C6D1BC3918079FB7004B9279 /* HZActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC3A18079FB7004B9279 /* HZActivityIndicatorView.h */,
+				C6D1BC3B18079FB7004B9279 /* HZActivityIndicatorView.m */,
+			);
+			path = HZActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		C6D1BC431807A479004B9279 /* F3Swirly */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC441807A500004B9279 /* F3Swirly.h */,
+				C6D1BC451807A500004B9279 /* F3Swirly.m */,
+				C6D1BC461807A500004B9279 /* ViewController_iPad.xib */,
+				C6D1BC471807A500004B9279 /* ViewController_iPhone.xib */,
+				C6D1BC481807A500004B9279 /* ViewController.h */,
+				C6D1BC491807A500004B9279 /* ViewController.m */,
+			);
+			path = F3Swirly;
+			sourceTree = "<group>";
+		};
+		C6D1BC521807A764004B9279 /* TYProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC531807A764004B9279 /* TYIndeterminateProgressBar */,
+				C6D1BC561807A764004B9279 /* TYViewController.h */,
+				C6D1BC571807A764004B9279 /* TYViewController.m */,
+				C6D1BC581807A764004B9279 /* TYViewController.xib */,
+			);
+			path = TYProgressBar;
+			sourceTree = "<group>";
+		};
+		C6D1BC531807A764004B9279 /* TYIndeterminateProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC541807A764004B9279 /* TYIndeterminateProgressBar.h */,
+				C6D1BC551807A764004B9279 /* TYIndeterminateProgressBar.m */,
+			);
+			path = TYIndeterminateProgressBar;
+			sourceTree = "<group>";
+		};
+		C6D1BC5C1807AC75004B9279 /* MTActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC5D1807AC75004B9279 /* MTActivityIndicatorView.h */,
+				C6D1BC5E1807AC75004B9279 /* MTActivityIndicatorView.m */,
+				C6D1BC5F1807AC75004B9279 /* MTViewController.h */,
+				C6D1BC601807AC75004B9279 /* MTViewController.m */,
+				C6D1BC631807ACBB004B9279 /* MTViewController.xib */,
+			);
+			path = MTActivityIndicator;
+			sourceTree = "<group>";
+		};
+		C6D1BC651807AF53004B9279 /* TISpringLoadedView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC661807AF53004B9279 /* TIRootViewController.h */,
+				C6D1BC671807AF53004B9279 /* TIRootViewController.m */,
+				C6D1BC681807AF53004B9279 /* TISpringLoadedSpinnerView.h */,
+				C6D1BC691807AF53004B9279 /* TISpringLoadedSpinnerView.m */,
+				C6D1BC6A1807AF53004B9279 /* TISpringLoadedView.h */,
+				C6D1BC6B1807AF53004B9279 /* TISpringLoadedView.m */,
+			);
+			path = TISpringLoadedView;
+			sourceTree = "<group>";
+		};
+		C6D1BC6F1807C53D004B9279 /* DDIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC701807C53E004B9279 /* CLViewController.h */,
+				C6D1BC711807C53E004B9279 /* CLViewController.m */,
+				C6D1BC721807C53E004B9279 /* CLViewController.xib */,
+				C6D1BC731807C53E004B9279 /* DDIndicator.h */,
+				C6D1BC741807C53E004B9279 /* DDIndicator.m */,
+			);
+			path = DDIndicator;
+			sourceTree = "<group>";
+		};
+		C6D1BC781807C6B7004B9279 /* LHLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC791807C6B7004B9279 /* LoadingTipView */,
+				C6D1BC7C1807C6B7004B9279 /* LVViewController.h */,
+				C6D1BC7D1807C6B7004B9279 /* LVViewController.m */,
+				C6D1BC7E1807C6B7004B9279 /* LVViewController.xib */,
+			);
+			path = LHLoadingView;
+			sourceTree = "<group>";
+		};
+		C6D1BC791807C6B7004B9279 /* LoadingTipView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1BC7A1807C6B7004B9279 /* LeoLoadingView.h */,
+				C6D1BC7B1807C6B7004B9279 /* LeoLoadingView.m */,
+			);
+			path = LoadingTipView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +359,14 @@
 				C6D1BC2618079EAC004B9279 /* Default.png in Resources */,
 				C6D1BC2818079EAC004B9279 /* Default@2x.png in Resources */,
 				C6D1BC2A18079EAC004B9279 /* Default-568h@2x.png in Resources */,
+				C6D1BC3518079EE6004B9279 /* RootViewController.xib in Resources */,
+				C6D1BC421807A166004B9279 /* DemoViewController.xib in Resources */,
+				C6D1BC4B1807A500004B9279 /* ViewController_iPad.xib in Resources */,
+				C6D1BC4C1807A500004B9279 /* ViewController_iPhone.xib in Resources */,
+				C6D1BC5B1807A764004B9279 /* TYViewController.xib in Resources */,
+				C6D1BC641807ACBB004B9279 /* MTViewController.xib in Resources */,
+				C6D1BC761807C53E004B9279 /* CLViewController.xib in Resources */,
+				C6D1BC811807C6B7004B9279 /* LVViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +379,23 @@
 			files = (
 				C6D1BC2018079EAC004B9279 /* main.m in Sources */,
 				C6D1BC2418079EAC004B9279 /* AppDelegate.m in Sources */,
+				C6D1BC3418079EE6004B9279 /* RootViewController.m in Sources */,
+				C6D1BC3C18079FB7004B9279 /* DemoViewController.m in Sources */,
+				C6D1BC3D18079FB7004B9279 /* HZActivityIndicatorView.m in Sources */,
+				C6D1BC401807A119004B9279 /* HZActivityIndicatorSubclassExample.m in Sources */,
+				C6D1BC4A1807A500004B9279 /* F3Swirly.m in Sources */,
+				C6D1BC4D1807A500004B9279 /* ViewController.m in Sources */,
+				C6D1BC591807A764004B9279 /* TYIndeterminateProgressBar.m in Sources */,
+				C6D1BC5A1807A764004B9279 /* TYViewController.m in Sources */,
+				C6D1BC611807AC75004B9279 /* MTActivityIndicatorView.m in Sources */,
+				C6D1BC621807AC75004B9279 /* MTViewController.m in Sources */,
+				C6D1BC6C1807AF53004B9279 /* TIRootViewController.m in Sources */,
+				C6D1BC6D1807AF53004B9279 /* TISpringLoadedSpinnerView.m in Sources */,
+				C6D1BC6E1807AF53004B9279 /* TISpringLoadedView.m in Sources */,
+				C6D1BC751807C53E004B9279 /* CLViewController.m in Sources */,
+				C6D1BC771807C53E004B9279 /* DDIndicator.m in Sources */,
+				C6D1BC7F1807C6B7004B9279 /* LeoLoadingView.m in Sources */,
+				C6D1BC801807C6B7004B9279 /* LVViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
